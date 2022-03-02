@@ -11,6 +11,8 @@ public class Homepage {
 	@FindBy (xpath = "//button[@type='submit']")
 	WebElement Submit;
 	
+	@FindBy (xpath = "//input[@placeholder='Search for products, brands and more']")
+	WebElement Start;
 		 
 
 }

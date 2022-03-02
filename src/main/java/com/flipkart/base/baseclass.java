@@ -52,7 +52,7 @@ public class baseclass {
 		// Delete all the cookies
 		driver.manage().deleteAllCookies();
 		
-		Action.implicitwait(driver, 10);
+		Action.implicitwait(driver, 10); // implicit wait function
 		driver.get(prop.getProperty("url"));
 	}
 }
